@@ -1,0 +1,26 @@
+form{
+  margin: auto;
+  text-align: center;
+ 
+}
+.btn-1{
+    background-color: #0A81AB;
+    padding: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+.emailcard{
+    width: 50%;
+  /* border: 1px solid black; */
+    margin: auto;
+ 
+}
+
+.email{
+    width: 90%;
+}
