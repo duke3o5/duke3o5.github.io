@@ -8,7 +8,7 @@ function About() {
     <Container fluid>
       {/* <Particle /> */}
       <Container>
-        <Techstack />
+        {/* <Techstack /> */}
         <ToolStack />
       </Container>
     </Container>
