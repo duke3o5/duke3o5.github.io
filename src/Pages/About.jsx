@@ -9,7 +9,7 @@ function About() {
     <Container fluid className="nav-link about" >
       <SelfIntro />
       <Container>
-        <Techstack />
+        {/* <Techstack /> */}
         <ToolStack />
       </Container>
     </Container>
