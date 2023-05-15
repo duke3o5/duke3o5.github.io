@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCards from "../Components/ProjectCards/ProjectCards";
 import p1 from '../Assets/Projects/the_service.png'
 import p2 from '../Assets/Projects/meanBuy.png'
+import p3 from '../Assets/Projects/bigbasket.png'
+import p4 from '../Assets/Projects/apple.png'
+
 
 function Projects() {
   return (
@@ -44,25 +47,25 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath="/images/fastrack.png"
-              title="Fastrack Clone"
-              description="Clone of website fastrack ,Fastrack is leading brand of India and sub brand of titan, you can shop multiple product of fastrack like watches, perfumes, goggles"
+              imgPath={p3}
+              title="Big Basket Clone"
+              description="Clone of Bigbasket.com. That sells variety of fresh food and dairy products."
               tech="Tech-Stacks"
-              techD=" HTML | CSS | Javascript | React | Node.js"
-              link="https://graceful-paprenjak-4dc123.netlify.app/"
-              a="https://github.com/ayushi8855/fastrack.git"
+              techD=" HTML | CSS | JavaScript | React | Redux"
+              link="https://apnabasket.vercel.app/"
+              a="https://github.com/duke3o5/-humane-north-3042"
             />
           </Col>
 
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath={p2}
-              title="Meanbuy clone"
-              description="Meanbuy is a comprehensive platform for you to choose how you shop, whether it is buying instantly, waiting to save or to pick up your order from the store."
+              imgPath={p4}
+              title="Apple clone"
+              description="Apple is leading tech giant that sells smartphones, ipad, mackbook, airpods, watches."
               tech="Tech-Stacks"
               techD="Html | Javascript | CSS | Boostrap  "
-              link="https://fascinating-starlight-f562ee.netlify.app/"
-              a="https://github.com/duke3o5/loyal-elbow-6166"
+              link="https://matrix-opal.vercel.app/"
+              a="https://github.com/Sagarbisht07/Perpetual-fact-6008"
             />
           </Col>
 

@@ -3,9 +3,9 @@ import GitHubCalendar from "react-github-calendar";
 
 export const Github = () => {
   return (
-    <div className="section">
+    <div className="section" style={{ textAlign:"center", margin:"auto", marginTop: "2%"}}>
     <h1 >Github</h1>
-    <div className="github section" id="Github">
+    <div className="github section" id="Github" >
       
       <span className="section_subtitle">Calender And Stats</span>
 
@@ -44,7 +44,7 @@ export const Github = () => {
 
      
 
-      <div className="github_container container"style={{width:"90%",margin:"20px 0 0 4%",backgroundColor:"black",padding:"10px",color:"white",border:"1px solid white"}}>
+      <div className="github_container container"style={{width:"90%",margin:"20px 0 0 8%",backgroundColor:"black",padding:"10px",color:"white",border:"1px solid white"}}>
         <a style={{textDecoration:"none"}}href="https://github.com/duke3o5" target="_blank" rel="noreferrer">
           <GitHubCalendar   username="duke3o5" className="calender react-activity-calendar" style={{color:"white"}}/>
         </a>

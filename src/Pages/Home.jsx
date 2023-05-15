@@ -7,6 +7,7 @@ import "../Components/Header/header.css";
 import profile from "../Assets/Projects/profile.png";
 import SelfIntro from "../Components/SelfIntro/SelfIntro";
 import TypeWriter from "../Components/TypeWriter/TypeWriter";
+// import "./header.css";
 
 function Home() {
   return (
@@ -43,21 +44,26 @@ function Home() {
         </Container>
       </Container>
 
-      <Button
-        href="Deepak_Kumar_Resume.pdf"
+      {/* <Button
         onClick={() =>
           window.open(
             "https://drive.google.com/file/d/1Jav8zyHoSGl2xC4G1zw7OBXFTNib18V4/view?usp=drivesdk"
           )
         }
-        target="_blank"
         className="fork-btn-inner"
         id="resume-button-2"
-        download=""
       >
-        Hire Me
-      </Button>
-      <SelfIntro />
+        <a
+          href="Deepak_Kumar_Resume.pdf"
+          id="resume-link-2"
+          download="Deepak_Kumar_Resume.pdf"
+          target="_blank"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          Resume
+        </a>
+      </Button> */}
+      {/* <SelfIntro /> */}
     </section>
   );
 }

@@ -21,10 +21,10 @@ function ToolStack() {
         <SiPostman />
         <p>Postman</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
         <p>Amazonaws</p>
-      </Col>
+      </Col> */}
       
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
